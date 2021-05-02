@@ -1,7 +1,7 @@
 ratings:
   namespace: student45-bookinfo-prd
   image: ghcr.io/niraphon22/bookinfo-ratings
-  tag: ${{ env.ENV_NAME }}
+  tag: prd
   replicas: 1
   imagePullSecrets: registry-bookinfo
   port: 8080
